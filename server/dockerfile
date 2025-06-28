@@ -4,7 +4,7 @@ RUN useradd runner -d /home/runner -m -s /bin/bash
 WORKDIR /usr/local/http-server
 ADD ./application.py /usr/local/http-server/application.py
 RUN chown -R runner:runner /usr/local/http-server/
-EXPOSE 8000
+EXPOSE 9000
 USER runner
 CMD ["python3", "-u", "/usr/local/http-server/application.py"]
 

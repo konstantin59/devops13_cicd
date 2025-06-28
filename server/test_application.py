@@ -5,4 +5,4 @@ def test_server():
     assert TestMe().take_five() == 4
 
 def test_port():
-    assert TestMe().port() == 8000
+    assert TestMe().port() == 9000
