@@ -14,7 +14,7 @@ jobs:
           python-version: '3.10'
       - run: |
           pip install -r requirements.txt
-          pylint -d C0116 C0114 C0115 server/application.py
+          pylint -d C0116 -d C0114 -d C0115 server/application.py
 
   unit-tests:
     runs-on: ubuntu-24.04
