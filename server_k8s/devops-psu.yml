@@ -7,7 +7,7 @@ metadata:
     release-date: 1751120813
   namespace: devops-psu
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: devops-psu
