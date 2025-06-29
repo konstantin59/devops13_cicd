@@ -4,7 +4,7 @@ metadata:
   name: devops-psu
   labels:
     app: devops-psu
-    release-date: 1751120813
+    release-date: 1751173847
   namespace: devops-psu
 spec:
   replicas: 2
@@ -16,7 +16,7 @@ spec:
       labels:
         app: devops-psu
         svc: frontend
-        release-date: 1751120813
+        release-date: 1751173847
     spec:
       containers:
         - name: devops-psu-server
